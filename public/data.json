@@ -1,0 +1,135 @@
+[
+    {
+        "id": 1,
+        "picture": "https://i.ibb.co/NFDtqxj/Food.png",
+        "title": "Delicious Pizza",
+        "category": "food",
+        "category_bg": "#F87147",
+        "card_bg": "#F8714726",
+        "text_button_bg": "#F87147",
+        "description": "A mouthwatering pizza topped with fresh ingredients.",
+        "price": "$12.99"
+    },
+    {
+        "id": 2,
+        "picture": "https://i.ibb.co/25bKL5s/Clothing.png",
+        "title": "Fashionable T-Shirt",
+        "category": "clothing",
+        "category_bg": "#79C23F",
+        "card_bg": "#79C23F26",
+        "text_button_bg": "#79C23F",
+        "description": "A stylish and comfortable t-shirt for everyday wear.",
+        "price": "$19.99"
+    },
+    {
+        "id": 3,
+        "picture": "https://i.ibb.co/Thhj8tW/Education.png",
+        "title": "Learn Programming",
+        "category": "education",
+        "category_bg": "#27AE60",
+        "card_bg": "#DFF0D8",
+        "text_button_bg": "#27AE60",
+        "description": "An online course to master programming languages.",
+        "price": "$49.99"
+    },
+    {
+        "id": 4,
+        "picture": "https://i.ibb.co/6BZXc9K/Health.png",
+        "title": "Fitness Tracker",
+        "category": "health",
+        "category_bg": "#0052FF",
+        "card_bg": "#0052FF26",
+        "text_button_bg": "#0052FF",
+        "description": "Track your health and fitness goals with this device.",
+        "price": "$39.99"
+    },
+    {
+        "id": 5,
+        "picture": "https://i.ibb.co/NFDtqxj/Food.png",
+        "title": "Sushi Platter",
+        "category": "food",
+        "category_bg": "#FF5733",
+        "card_bg": "#FCE4D3",
+        "text_button_bg": "#FF5733",
+        "description": "A delectable assortment of sushi rolls.",
+        "price": "$24.99"
+    },
+    {
+        "id": 6,
+        "picture": "https://i.ibb.co/25bKL5s/Clothing.png",
+        "title": "Elegant Dress",
+        "category": "clothing",
+        "category_bg": "#3498DB",
+        "card_bg": "#D5DBDB",
+        "text_button_bg": "#3498DB",
+        "description": "A stunning dress for special occasions.",
+        "price": "$59.99"
+    },
+    {
+        "id": 7,
+        "picture": "https://i.ibb.co/Thhj8tW/Education.png",
+        "title": "Art History Course",
+        "category": "education",
+        "category_bg": "#27AE60",
+        "card_bg": "#DFF0D8",
+        "text_button_bg": "#27AE60",
+        "description": "Explore the world of art through history.",
+        "price": "$29.99"
+    },
+    {
+        "id": 8,
+        "picture": "https://i.ibb.co/6BZXc9K/Health.png",
+        "title": "Yoga Mat",
+        "category": "health",
+        "category_bg": "#0052FF",
+        "card_bg": "#0052FF26",
+        "text_button_bg": "#0052FF",
+        "description": "A high-quality yoga mat for your daily practice.",
+        "price": "$19.99"
+    },
+    {
+        "id": 9,
+        "picture": "https://i.ibb.co/NFDtqxj/Food.png",
+        "title": "Burger Combo",
+        "category": "food",
+        "category_bg": "#FF5733",
+        "card_bg": "#FCE4D3",
+        "text_button_bg": "#FF5733",
+        "description": "Savor the flavors of a classic burger combo.",
+        "price": "$9.99"
+    },
+    {
+        "id": 10,
+        "picture": "https://i.ibb.co/25bKL5s/Clothing.png",
+        "title": "Casual Jeans",
+        "category": "clothing",
+        "category_bg": "#3498DB",
+        "card_bg": "#D5DBDB",
+        "text_button_bg": "#3498DB",
+        "description": "Comfortable and stylish jeans for everyday wear.",
+        "price": "$39.99"
+    },
+    {
+        "id": 11,
+        "picture": "https://i.ibb.co/Thhj8tW/Education.png",
+        "title": "Language Learning App",
+        "category": "education",
+        "category_bg": "#FF444A",
+        "card_bg": "#FF444A26",
+        "text_button_bg": "#FF444A",
+        "description": "Learn a new language with interactive lessons.",
+        "price": "$14.99"
+    },
+    {
+        "id": 12,
+        "picture": "https://i.ibb.co/6BZXc9K/Health.png",
+        "title": "Healthy Recipe Book",
+        "category": "health",
+        "category_bg": "#0052FF",
+        "card_bg": "#0052FF26",
+        "text_button_bg": "#0052FF",
+        "description": "Discover nutritious and delicious recipes.",
+        "price": "$19.99"
+    }
+]
+
