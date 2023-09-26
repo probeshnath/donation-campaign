@@ -1,19 +1,65 @@
-import React from 'react'
+import React, { useEffect, useState } from 'react';
+import { useLoaderData, useParams } from 'react-router-dom';
 
 const DonationDetail = () => {
-  return (
-    <div className='relative'>
-        <div className='w-full h-[400px] relative'>
-        <img className='w-full relative h-[400px]' src="https://i.ibb.co/NFDtqxj/Food.png" alt="" />
-        <div className='absolute -mt-[84px] bg-[#00000094] p-5 w-full text-white'>
-            <button className='bg-[#FF444A] text-lg font-medium text-white px-4 rounded-sm py-2'>Donate $200</button>
-        </div>
-        </div>
+  const { id } = useParams();
+  const datas = useLoaderData();
+  const [donate, setDonate] = useState(null);
+  const [donateTaka, setDonateTaka] = useState([])
+  console.log(datas)
 
-        <h2 className='text-4xl font-semibold pt-7 pb-3'>Good Education</h2>
-        <p className='text-base font-normal pb-10'>There are many things that can be done to ensure that all people have access to a good education. Governments can invest in public schools, provide financial assistance to students, and make sure that all schools have qualified teachers and resources. Families can support their children's education by creating a learning environment at home and helping them with their schoolwork. Teachers can create a positive and supportive learning environment for their students and challenge them to reach their full potential.</p>
-    </div>
-  )
+  useEffect(() => {
+    // Find the donation data with the matching id
+    const donation = datas.find((data) => data.id == id);
+
+    // Set the donation data to the state
+    if (donation) {
+      setDonate(donation);
+    }
+  }, [datas, id]);
+  console.log("donation", donate)
+
+  if (!donate) {
+    // Handle the case where the donation data is still loading or not found
+    return <div>Loading...</div>;
+  }
+
+  // donation process
+   const getStoredJobApplication = () =>{
+    const storedJobApplication = localStorage.getItem('donatePrice');
+    if(storedJobApplication){
+        return JSON.parse(storedJobApplication);
+    }
+    return [];
 }
 
-export default DonationDetail
+const donateMoney = id =>{
+  const storedJobApplications = getStoredJobApplication();
+  const exists = storedJobApplications.find(jobId => jobId === id);
+  if(!exists){
+      storedJobApplications.push(id);
+      localStorage.setItem('donatePrice', JSON.stringify(storedJobApplications))
+  }
+}
+
+
+
+  return (
+    <div className='relative max-w-6xl mx-auto'>
+      <div className='w-full h-[400px] relative'>
+        <img className='w-full relative h-[400px]' src={donate.picture} alt='' />
+        <div className='absolute -mt-[84px] bg-[#00000094] p-5 w-full text-white'>
+          <button className='bg-[#FF444A] text-lg font-medium text-white px-4 rounded-sm py-2' onClick={()=> donateMoney(donate.id)} >
+            Donate {donate.price}
+          </button>
+        </div>
+      </div>
+
+      <h2 className='text-4xl font-semibold pt-7 pb-3'>{donate.title}</h2>
+      <p className='text-base font-normal pb-10'>{donate.description}</p>
+    </div>
+  );
+};
+
+export default DonationDetail;
+ 

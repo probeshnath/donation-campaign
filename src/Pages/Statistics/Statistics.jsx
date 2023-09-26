@@ -4,7 +4,7 @@ import DonationDetail from '../Donation/DonationDetail'
 const Statistics = () => {
   return (
     <div className='max-w-6xl mx-auto'>
-      <DonationDetail />
+      {/* <DonationDetail /> */}
 
 
 
