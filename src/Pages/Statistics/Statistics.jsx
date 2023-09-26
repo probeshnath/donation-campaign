@@ -31,7 +31,7 @@ const Statistics = () => {
           type='pie'
           width={500}
           height={500}
-          series={[donateItem?.length || 0, allDonateItem?.length || 0]} // Ensure allDonateItem is defined
+          series={[donateItem?.length || 0, (allDonateItem?.length - donateItem?.length) || 0]} // Ensure allDonateItem is defined
           options={{
             labels: ['Your Donation', 'Total Donation'],
           }}

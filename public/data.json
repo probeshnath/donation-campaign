@@ -7,7 +7,7 @@
         "category_bg": "#FBBBB9",
         "card_bg": "#DFF0D8",
         "text_button_bg": "#27AE60",
-        "description": "A mouthwatering pizza topped with fresh ingredients.",
+        "description": "A mouthwatering pizza topped with fresh ingredients. Food is any substance consumed by an organism for nutritional support. Food is usually of plant, animal, or fungal origin and contains essential nutrients such as carbohydrates, fats, proteins, vitamins, or minerals.",
         "price": "$12.99"
     },
     {
@@ -15,10 +15,10 @@
         "picture": "https://i.ibb.co/25bKL5s/Clothing.png",
         "title": "Fashionable T-Shirt",
         "category": "clothing",
-        "category_bg": "#A1C935",
+        "category_bg": "#bfff14",
         "card_bg": "#79C23F26",
         "text_button_bg": "#79C23F",
-        "description": "A stylish and comfortable t-shirt for everyday wear.",
+        "description": "A stylish and comfortable t-shirt for everyday wear. Clothing is any item worn on the body. Typically, clothing is made of fabrics or textiles, but over time it has included garments made from animal skin",
         "price": "$19.99"
     },
     {
@@ -29,7 +29,7 @@
         "category_bg": "#FBBBB9",
         "card_bg": "#DFF0D8",
         "text_button_bg": "#27AE60",
-        "description": "An online course to master programming languages.",
+        "description": "An online course to master programming languages. Education is the transmission of knowledge, skills, and character traits. There are many debates about its precise definition, for example, about which aims it tries to achieve",
         "price": "$49.99"
     },
     {
@@ -40,7 +40,7 @@
         "category_bg": "#38ACEC",
         "card_bg": "#0052FF26",
         "text_button_bg": "#0052FF",
-        "description": "Track your health and fitness goals with this device.",
+        "description": "Track your health and fitness goals with this device.In common usage and medicine, health, according to the World Health Organization, is a state of complete physical, mental and social well-being and not merely the absence of disease and infirmity. A variety of definitions have been used for different purposes over time",
         "price": "$39.99"
     },
     {
@@ -51,7 +51,7 @@
         "category_bg": "#FBBBB9",
         "card_bg": "#DFF0D8",
         "text_button_bg": "#27AE60",
-        "description": "A delectable assortment of sushi rolls.",
+        "description": "A delectable assortment of sushi rolls. Food is any substance consumed by an organism for nutritional support. Food is usually of plant, animal, or fungal origin and contains essential nutrients such as carbohydrates, fats, proteins, vitamins, or minerals.",
         "price": "$24.99"
     },
     {
@@ -59,10 +59,10 @@
         "picture": "https://i.ibb.co/25bKL5s/Clothing.png",
         "title": "Elegant Dress",
         "category": "clothing",
-        "category_bg": "#A1C935",
+        "category_bg": "#bfff14",
         "card_bg": "#79C23F26",
         "text_button_bg": "#79C23F",
-        "description": "A stunning dress for special occasions.",
+        "description": "A stunning dress for special occasions. Clothing is any item worn on the body. Typically, clothing is made of fabrics or textiles, but over time it has included garments made from animal skin",
         "price": "$59.99"
     },
     {
@@ -73,7 +73,7 @@
         "category_bg": "#FBBBB9",
         "card_bg": "#DFF0D8",
         "text_button_bg": "#27AE60",
-        "description": "Explore the world of art through history.",
+        "description": "Explore the world of art through history. Education is the transmission of knowledge, skills, and character traits. There are many debates about its precise definition, for example, about which aims it tries to achieve",
         "price": "$29.99"
     },
     {
@@ -84,7 +84,7 @@
         "category_bg": "#38ACEC",
         "card_bg": "#0052FF26",
         "text_button_bg": "#0052FF",
-        "description": "A high-quality yoga mat for your daily practice.",
+        "description": "A high-quality yoga mat for your daily practice. In common usage and medicine, health, according to the World Health Organization, is a state of complete physical, mental and social well-being and not merely the absence of disease and infirmity. A variety of definitions have been used for different purposes over time",
         "price": "$19.99"
     },
     {
@@ -95,7 +95,7 @@
         "category_bg": "#FBBBB9",
         "card_bg": "#DFF0D8",
         "text_button_bg": "#27AE60",
-        "description": "Savor the flavors of a classic burger combo.",
+        "description": "Savor the flavors of a classic burger combo. Food is any substance consumed by an organism for nutritional support. Food is usually of plant, animal, or fungal origin and contains essential nutrients such as carbohydrates, fats, proteins, vitamins, or minerals.",
         "price": "$9.99"
     },
     {
@@ -103,10 +103,10 @@
         "picture": "https://i.ibb.co/25bKL5s/Clothing.png",
         "title": "Casual Jeans",
         "category": "clothing",
-        "category_bg": "#A1C935",
+        "category_bg": "#bfff14",
         "card_bg": "#79C23F26",
         "text_button_bg": "#79C23F",
-        "description": "Comfortable and stylish jeans for everyday wear.",
+        "description": "Comfortable and stylish jeans for everyday wear. Clothing is any item worn on the body. Typically, clothing is made of fabrics or textiles, but over time it has included garments made from animal skin",
         "price": "$39.99"
     },
     {
@@ -117,7 +117,7 @@
         "category_bg": "#FBBBB9",
         "card_bg": "#DFF0D8",
         "text_button_bg": "#27AE60",
-        "description": "Learn a new language with interactive lessons.",
+        "description": "Learn a new language with interactive lessons.Education is the transmission of knowledge, skills, and character traits. There are many debates about its precise definition, for example, about which aims it tries to achieve",
         "price": "$14.99"
     },
     {
@@ -128,7 +128,7 @@
         "category_bg": "#38ACEC",
         "card_bg": "#0052FF26",
         "text_button_bg": "#0052FF",
-        "description": "Discover nutritious and delicious recipes.",
+        "description": "Discover nutritious and delicious recipes. In common usage and medicine, health, according to the World Health Organization, is a state of complete physical, mental and social well-being and not merely the absence of disease and infirmity. A variety of definitions have been used for different purposes over time",
         "price": "$19.99"
     }
 ]
