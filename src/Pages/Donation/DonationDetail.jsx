@@ -1,5 +1,7 @@
 import React, { useEffect, useState } from 'react';
 import { useLoaderData, useParams } from 'react-router-dom';
+import swal from 'sweetalert2';
+window.Swal = swal;
 
 const DonationDetail = () => {
   const { id } = useParams();
@@ -36,7 +38,21 @@ const DonationDetail = () => {
 const donateMoney = id =>{
   const storedJobApplications = getStoredJobApplication();
   const exists = storedJobApplications.find(jobId => jobId === id);
+  if(exists){
+    Swal.fire({
+      icon: 'error',
+      title: 'Oops...',
+      text: 'Alreadt Exist this Donate!',
+    })
+  }
   if(!exists){
+    Swal.fire({
+      position: 'center',
+      icon: 'success',
+      title: 'Successfully Added Your Donation',
+      showConfirmButton: false,
+      timer: 1500
+    })
       storedJobApplications.push(id);
       localStorage.setItem('donatePrice', JSON.stringify(storedJobApplications))
   }

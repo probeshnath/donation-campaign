@@ -1,7 +1,8 @@
-import React from 'react'
+import React, { useState } from 'react'
 import Navbar from './Navbar'
 
-const Header = () => {
+const Header = ({handleSearchInputChange,searchDonate}) => {
+  
   return (
     <div className=''>
        <div className="hero h-[82vh]" style={{backgroundImage: 'url(https://png.pngtree.com/background/20210711/original/pngtree-fresh-girl-outing-banner-picture-image_1066277.jpg)'}}>
@@ -11,8 +12,8 @@ const Header = () => {
             <h1 className="mb-5 text-5xl text-white font-bold">I Grow By Helping People In Need</h1>
             <div className="form-control mt-10">
                 <div className="input-group flex justify-center items-center">
-                    <input type="text" placeholder="Search here…" className="input input-bordered" />
-                    <button className="bg-[#FF444A] w-20 text-white btn-square">Search</button>
+                    <input type="text" placeholder="Search here…" onChange={handleSearchInputChange} className="input text-gray-500 input-bordered" />
+                    <button className="bg-[#FF444A] w-20 text-white btn-square" onClick={searchDonate} >Search</button>
                 </div>
                 </div>
             </div>
