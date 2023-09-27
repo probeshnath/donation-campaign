@@ -23,7 +23,7 @@ const DonationCard = ({item}) => {
   // }, [donateData, item]);
   // console.log("total",donateItem.length)
   return (
-    <div >
+    <div className='px-2' >
         {/* {
           actualData > 0 ? ( */}
             <div  style={{background:actualData?.card_bg}} class="relative flex max-w-[48rem] flex-row rounded-md bg-clip-border text-gray-700 shadow-md">

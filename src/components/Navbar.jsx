@@ -11,7 +11,7 @@ const Navbar = () => {
             </a>
         </div>
         <div className="flex-none">
-            <ul className="menu menu-horizontal px-1 font-medium text-lg flex gap-7">
+            <ul className="menu menu-horizontal px-1 font-medium text-lg flex gap-3 md:gap-7">
             <NavLink className={({ isActive, isPending }) => {return isActive ? "text-red-600 border-b-2 border-red-600" :
              isPending ? "pending" : "";
                 }} to="/">Home</NavLink>

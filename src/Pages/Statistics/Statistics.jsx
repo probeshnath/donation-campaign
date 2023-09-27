@@ -12,7 +12,7 @@ const Statistics = () => {
   }, []);
 
   return (
-    <div className='max-w-6xl mx-auto flex justify-center items-center'>
+    <div className='max-w-6xl mx-auto px-2 flex justify-center items-center'>
       {/* {donateItem?.length === 0 ? (
         <>
           <h1>At first, please donate.</h1>
@@ -29,8 +29,8 @@ const Statistics = () => {
       ) : ( */}
         <Chart
           type='pie'
-          width={500}
-          height={500}
+          width={400}
+          height={400}
           series={[donateItem?.length || 0, (allDonateItem?.length - donateItem?.length) || 0]} // Ensure allDonateItem is defined
           options={{
             labels: ['Your Donation', 'Total Donation'],

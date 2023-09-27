@@ -61,7 +61,7 @@ const donateMoney = id =>{
 
 
   return (
-    <div className='relative max-w-6xl mx-auto'>
+    <div className='relative max-w-6xl px-2 mx-auto'>
       <div className='w-full h-[400px] relative'>
         <img className='w-full relative h-[400px]' src={donate.picture} alt='' />
         <div className='absolute -mt-[84px] bg-[#00000094] p-5 w-full text-white'>

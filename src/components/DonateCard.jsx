@@ -11,10 +11,10 @@ const DonateCard = ({data}) => {
     }
 
   return (
-    <div onClick={seeDetails} className='cursor-pointer'>
+    <div onClick={seeDetails} className='cursor-pointer px-2'>
         <div style={{background:data.card_bg}} className={`relative rounded-lg bg-clip-border text-gray-700 shadow-md`}>
           <div className="relative overflow-hidden rounded-lg rounded-b-none bg-blue-gray-500 bg-clip-border text-white">
-            <img
+            <img className='w-full'
               src={data.picture}
               alt="img-blur-shadow"
               layout="fill"
