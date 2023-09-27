@@ -42,7 +42,7 @@ const donateMoney = id =>{
     Swal.fire({
       icon: 'error',
       title: 'Oops...',
-      text: 'Alreadt Exist this Donate!',
+      text: 'Already Exist this Donation!',
     })
   }
   if(!exists){
@@ -65,7 +65,7 @@ const donateMoney = id =>{
       <div className='w-full h-[400px] relative'>
         <img className='w-full relative h-[400px]' src={donate.picture} alt='' />
         <div className='absolute -mt-[84px] bg-[#00000094] p-5 w-full text-white'>
-          <button className='bg-[#FF444A] text-lg font-medium text-white px-4 rounded-sm py-2' onClick={()=> donateMoney(donate.id)} >
+          <button style={{background: donate.text_button_bg}} className='text-lg font-medium text-white px-4 rounded-sm py-2' onClick={()=> donateMoney(donate.id)} >
             Donate {donate.price}
           </button>
         </div>
